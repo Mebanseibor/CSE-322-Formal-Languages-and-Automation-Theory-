@@ -100,7 +100,7 @@ pie title Marks distribution
         - Reversal ($^R$):
             - It does not follow commutative property
                 $$
-                (uv)^R = v^R u^R \\\\
+                (uv)^R = v^R u^R \\
                 (uv)^R \ne (vu)^R
                 $$
         
@@ -412,9 +412,9 @@ pie title Marks distribution
 
             - Derivation:
                 $$\begin{split}
-                R & = Q+QP^*P \\\\
-                & = Q(\epsilon + P^*P),\quad[\because \text{Taking common produces a single expression}] \\\\
-                & = QP^* \\\\
+                R & = Q+QP^*P \\
+                & = Q(\epsilon + P^*P),\quad[\because \text{Taking common produces a single expression}] \\
+                & = QP^* \\
                 \vdots
                 \end{split}
                 $$
@@ -443,29 +443,29 @@ pie title Marks distribution
     - ##### Conditions for each type:
         - Type 0:
             $$
-            \alpha \rightarrow \beta,\ where\\\\
-            \alpha = (T\cup N)^*N(T\cup N)^*\\\\
+            \alpha \rightarrow \beta,\ where\\
+            \alpha = (T\cup N)^*N(T\cup N)^*\\
             and,\quad\beta = (T\cup N)^*
             $$
         
         - Type 1:
             $$
-            \alpha \rightarrow \beta,\ where \\\\
-            |\alpha| \le |\beta| \\\\
+            \alpha \rightarrow \beta,\ where \\
+            |\alpha| \le |\beta| \\
             and, \beta = (V\cup T)^+
             $$
         
         - Type 2:
             $$
-            \alpha \rightarrow \beta,\ where \\\\
-            |\alpha| = 1\quad \&\quad \alpha = V \\\\
+            \alpha \rightarrow \beta,\ where \\
+            |\alpha| = 1\quad \&\quad \alpha = V \\
             and, \quad \beta = (V\cup T)^*
             $$
         
         - Type 3:
             $$
-            \alpha \rightarrow \beta,\ where\\\\
-            |\alpha| = 1 \quad \& \quad \alpha = V \\\\
+            \alpha \rightarrow \beta,\ where\\
+            |\alpha| = 1 \quad \& \quad \alpha = V \\
             and, \beta \text{ is either Left Linear Grammar (LLG) or Right Linear Grammar (RLG)}
             $$
 
@@ -563,32 +563,32 @@ pie title Marks distribution
 - #### Rules of Grammar:
     - ##### Type 0:
         $$
-        \alpha \rightarrow \beta,\ \text{where}\\\\
-        \alpha = (T \cup V),\ \text{and}\\\\
+        \alpha \rightarrow \beta,\ \text{where}\\
+        \alpha = (T \cup V),\ \text{and}\\
         \beta = (T \cup V)^*V(T \cup V)^*
         $$
     
     - ##### Type 1:
         $$
-        \alpha \rightarrow \beta,\ \text{where}\\\\
-        |\alpha| \le |\beta|,\\\\
-        \alpha = (T \cup V)^*V(T \cup V)^*,\ \text{and}\\\\
+        \alpha \rightarrow \beta,\ \text{where}\\
+        |\alpha| \le |\beta|,\\
+        \alpha = (T \cup V)^*V(T \cup V)^*,\ \text{and}\\
         \beta = (T \cup V)^+
         $$
     
     - ##### Type 2:
         $$
-        \alpha \rightarrow \beta,\ \text{where}\\\\
-        |\alpha| = 1,\\\\
-        \alpha = V,\ \text{and}\\\\
+        \alpha \rightarrow \beta,\ \text{where}\\
+        |\alpha| = 1,\\
+        \alpha = V,\ \text{and}\\
         \beta = (T \cup V)^*
         $$
     
     - ##### Type 3:
         $$
-        \alpha \rightarrow \beta,\ \text{where}\\\\
-        | \alpha | = 1,\\\\
-        \alpha = V,\ \text{and}\\\\
+        \alpha \rightarrow \beta,\ \text{where}\\
+        | \alpha | = 1,\\
+        \alpha = V,\ \text{and}\\
         \beta \ \text{is Left Linear Grammar (LLG)/Right Linear Grammar (RLL)}
         $$
 
@@ -601,7 +601,7 @@ pie title Marks distribution
     - Invalid grammar:
         - Conflicts in a grammar $G$, where:
             $$
-            S \rightarrow Aa,\ \text{which is LLG}\\\\
+            S \rightarrow Aa,\ \text{which is LLG}\\
             A \rightarrow aB,  \text{which is RLG}
             $$
     
@@ -612,11 +612,11 @@ pie title Marks distribution
 - #### $Grammar \rightarrow Language$
     - Example:
         $$
-        Language, L=\{wcw^T|w\in\ \{a,b\}^*\},\ \text{where}\\\\
-        w^T \text{is the reverse of}\ w\\\\
-        \\\\
-        \text{Here, Grammar,}\ G=\{\{S\}, \{a,b,c\},P,S\},\ \\\\\text{where, P is the following set of production rules}\\\\
-        \\\\
+        Language, L=\{wcw^T|w\in\ \{a,b\}^*\},\ \text{where}\\
+        w^T \text{is the reverse of}\ w\\
+        \\
+        \text{Here, Grammar,}\ G=\{\{S\}, \{a,b,c\},P,S\},\ \\\text{where, P is the following set of production rules}\\
+        \\
         P = {S \rightarrow aSa\ |\ bSb\ |\ c}
         $$
 
@@ -644,8 +644,8 @@ pie title Marks distribution
 - #### Regular Expression to Regular Grammar:
     - Example:
         $$
-        \text{For a Regular Expression, }RE = (a+ba)^*b\\\\
-        \text{Construct a machine, where for each input alphabet in each path, create a new state for it}\\\\
+        \text{For a Regular Expression, }RE = (a+ba)^*b\\
+        \text{Construct a machine, where for each input alphabet in each path, create a new state for it}\\
         $$
     - Note:
         - A production rule $\alpha \rightarrow \beta$,  where $\beta$ produces no variable $V$, indicates a transition to a final state
@@ -705,19 +705,19 @@ pie title Marks distribution
     - "*To prove that a grammar is not a Context Free Grammar (CFG)*"
 
     $$
-    w \in L\\\\
-    |w| \ge p\\\\
-    w=u\ v\ x\ y\ z\\\\
-    |vy| \gt 0,\ \text{meaning, }vy\ne \epsilon\\\\
-    |vxy| \le p, \text{where, }p\ \text{is the  pumping length}\\\\
+    w \in L\\
+    |w| \ge p\\
+    w=u\ v\ x\ y\ z\\
+    |vy| \gt 0,\ \text{meaning, }vy\ne \epsilon\\
+    |vxy| \le p, \text{where, }p\ \text{is the  pumping length}\\
     u\ v^i\ x\ y^i\ z \in L,\ \text{where, }i \ge 0
     $$
 
 - #### Unit production:
     - Unit production is a production rule where:
     $$
-    \alpha \rightarrow \beta,\text{ and}\\\\
-    \beta \in V\\\\
+    \alpha \rightarrow \beta,\text{ and}\\
+    \beta \in V\\
     $$
     
     - ##### Removal of unit production:
@@ -725,9 +725,9 @@ pie title Marks distribution
 - #### Null Production:
     - Unit production is a production rule where:
     $$
-    \alpha \rightarrow \beta,\text{ and}\\\\
-    \alpha \in V\\\\
-    \vert \alpha \vert = 1\\\\
+    \alpha \rightarrow \beta,\text{ and}\\
+    \alpha \in V\\
+    \vert \alpha \vert = 1\\
     \beta = \epsilon
     $$
 
@@ -760,7 +760,7 @@ pie title Marks distribution
                     
                     - Would be in CNF as:
                         $$
-                        S \rightarrow AB\\\\
+                        S \rightarrow AB\\
                         B \rightarrow a
                         $$
             
@@ -781,7 +781,7 @@ pie title Marks distribution
         - Eliminate any Left Recursion, if they exist
             - Example:
                 $$
-                A \rightarrow Aa\ /\ b,\text{ [This is not in CNF]}\\\\
+                A \rightarrow Aa\ /\ b,\text{ [This is not in CNF]}\\
                 A' \rightarrow bA'\ /aA'\ / \epsilon
                 $$
 
@@ -823,7 +823,7 @@ pie title Marks distribution
 
 - #### About hte transition function ($\delta$):
     $$
-    \delta: Q \times \{\Sigma \times \epsilon\} \times \Gamma\\\\
+    \delta: Q \times \{\Sigma \times \epsilon\} \times \Gamma\\
     \implies \delta:Q \times \Gamma^*
     $$
 
